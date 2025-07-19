@@ -132,7 +132,7 @@ While no strong evidence of bias toward specific teams was found, the patterns w
 
 ---
 
-### **6.1 Penalties: The Pressure Test**
+### **6.3 Penalties: The Pressure Test**
 
 When the whistle blows and the crowd holds its breath, few moments in football are as dramatic as a penalty kick.
 Analysis of penalty success rates across all teams revealed a striking trend:
@@ -145,16 +145,64 @@ This shows that elite teams are not only better at scoring goals but also excel 
 ---
 
 
-## 🧠 Machine Learning Models
+## 7.Machine Learning Models
 
-### 🌲 Random Forest Classifier
-- **Validation Accuracy:** 77.94%
-- **Test Accuracy:** 72.66%
-- Improved significantly with xG/xGA features
+This project aims to develop a data-driven predictive framework to forecast the winning team in English Premier League (EPL) matches using historical match data from September 12, 2020 , to April 25, 2022 .
 
-### 📈 Gaussian Processes Classification
-- **Validation Accuracy:** 76.26%
-- **Test Accuracy:** 72.66%
-- Moderate improvement with xG/xGA features
+
+
+### **7.1xG/xGA: The Hidden Power Behind the Scoreboard**
+
+In this project, xG/xGA became the stars of the show:
+
+- Strong correlation observed between xG and actual goals scored.  
+- After adding xG and xGA (Expected Goals Against) to the models, performance improved significantly.  
+- The **Random Forest model** improved from **59% to 78% accuracy** in validation after including these features.  
+
+This indicates that xG is not just a fancy stat — it’s a powerful predictor of match outcomes. Teams that create high-quality chances, even if not always converted, are more likely to win in the long run.
 
 ---
+
+###  **7.2 Model Performance Breakdown**
+
+| Model                        | Validation Accuracy | Validation Correct | Test Accuracy | Test Correct |
+|-----------------------------|---------------------|--------------------|---------------|--------------|
+| Random Forest (Baseline)    | 59.23%              | 246 / 417          | 53.24%        | 74 / 139     |
+| Gaussian Processes (Baseline)| 61.15%             | 255 / 417          | 61.15%        | 85 / 139     |
+| Random Forest + xG/xGA      | **77.94%**          | 325 / 417          | **72.66%**    | 101 / 139    |
+| Gaussian Processes + xG/xGA | **75.54%**          | 316 / 417          | **72.66%**    | 101 / 139    |
+
+---
+
+### **What Does This Mean?**
+
+- The **validation set** contains 417 unseen matches, and the **test set** includes 139 completely new matches.
+- Before adding Expected Goals (xG) and Expected Goals Against (xGA), models struggled to predict match outcomes accurately.
+- After incorporating xG and xGA:
+  - **Random Forest** improved from **59.23% to 77.94%** in validation accuracy.
+  - **Gaussian Processes** improved from **61.15% to 75.54%**.
+  - Both models reached **72.66%** accuracy on the test set — a substantial gain in real-world prediction power.
+
+---
+
+###  **Why Does This Matter?**
+
+Even with a **72.66%** accuracy, the models provide strategic value to multiple stakeholders:
+
+- **Coaches & Analysts**: Gain insight into key factors (like xG) influencing outcomes to improve tactics.
+- **Fantasy Football Players**: Make smarter selections based on predictive analytics.
+- **Sports Betting Platforms**: Refine odds and reduce risk through stronger models.
+- **Fans & Media**: Access richer narratives and performance explanations.
+
+---
+
+###  **Conclusion**
+
+- xG and xGA are highly valuable features that significantly boost predictive performance.
+- Random Forest emerged as the top-performing model when enriched with these variables.
+- Even modest improvements in accuracy can deliver tangible value in sports analytics.
+
+---
+
+
+
