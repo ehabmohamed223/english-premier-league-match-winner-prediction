@@ -41,7 +41,7 @@ This project analyzes the performance of English Premier League (EPL) teams betw
 
 ---
 
-## **Comprehensive Descriptive Analysis of EPL Teams (Season 2020–2022)**
+## **5.Comprehensive Descriptive Analysis of EPL Teams (Season 2020–2022)**
 
 
 <table>
@@ -104,27 +104,46 @@ This project analyzes the performance of English Premier League (EPL) teams betw
 
 
 
+## **6.Key Insights**
 
+### **6.1 Home Advantage: A Fortress or a Myth?**
 
+The magic of a home stadium — the familiar turf, the roaring crowd, the comfort of sleeping in your own bed. But does it really make a difference?
 
+Analysis confirmed what many suspected: home advantage is real.
+- Teams scored **963 goals at home**, compared to just **892 away**.  
+- They also conceded fewer goals at home (**925**) than on the road (**993**).  
+- Shots on target and possession were both higher when teams played in their own stadium.
 
-## **5.Key Insights**
-
-
-- **Home Advantage:**
-  - Teams scored **963 goals at home** vs **892 goals away**.
-  - Conceded fewer goals at home (**925**) than away (**993**).
-- **Shots on Target:** Home teams had more shots on target (2954 vs 2659).
-- **Referee Statistics:**
-  - Some referees managed over 100 matches.
-  - Referees showed varied performance in penalty and free-kick decisions.
-- **Penalty Kicks:**
-  - Top 6 teams had a **73.65% conversion rate** compared to other teams at **26.34%**.
-- **Expected Goals (xG):**
-  - Strong correlation between xG and actual goals scored.
-  - Adding xG and xGA features significantly improved model performance.
+This shows that playing at home provides teams a psychological and tactical edge. It’s not just about luck — it’s about control.
 
 ---
+
+### **6.2 The Referee’s Shadow: Fair or Favorable?**
+
+Referees are often the most controversial figures in a match. But could they be influencing outcomes more than expected?
+
+The performance of **20+ referees** across more than **1,300 matches** was analyzed. Key findings:
+
+- Some referees managed **over 100 matches**, while others appeared only a few times.  
+- There were variations in how many free kicks and penalties were awarded under different referees.  
+
+While no strong evidence of bias toward specific teams was found, the patterns were noticeable — especially in high-stakes matches. This suggests that referees do have an impact, and although striving for fairness, their decisions can subtly tip the balance.
+
+---
+
+### **6.1 Penalties: The Pressure Test**
+
+When the whistle blows and the crowd holds its breath, few moments in football are as dramatic as a penalty kick.
+Analysis of penalty success rates across all teams revealed a striking trend:
+
+- **Top 6 teams** converted **73.65%** of their penalties.  
+- Other teams managed only **26.34%**.  
+
+This shows that elite teams are not only better at scoring goals but also excel under pressure — a crucial trait in tight matches where one penalty can decide everything.
+
+---
+
 
 ## 🧠 Machine Learning Models
 
