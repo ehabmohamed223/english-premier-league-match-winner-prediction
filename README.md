@@ -205,4 +205,10 @@ Even with a **72.66%** accuracy, the models provide strategic value to multiple 
 ---
 
 
+# **Full Project Report**
+
+For a complete breakdown of this project — including data collection, cleaning, feature engineering, modeling, evaluation, and insights — view the full documentation:
+
+[Click here to explore the full EPL Match Winner Prediction Project Report](https://github.com/ehabmohamed223/english-premier-league-match-winner-prediction/tree/main/Project%20Report)
+
 
