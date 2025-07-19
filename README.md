@@ -185,17 +185,6 @@ This indicates that xG is not just a fancy stat — it’s a powerful predictor 
 
 ---
 
-###  **Why Does This Matter?**
-
-Even with a **72.66%** accuracy, the models provide strategic value to multiple stakeholders:
-
-- **Coaches & Analysts**: Gain insight into key factors (like xG) influencing outcomes to improve tactics.
-- **Fantasy Football Players**: Make smarter selections based on predictive analytics.
-- **Sports Betting Platforms**: Refine odds and reduce risk through stronger models.
-- **Fans & Media**: Access richer narratives and performance explanations.
-
----
-
 ###  **Conclusion**
 
 - xG and xGA are highly valuable features that significantly boost predictive performance.
@@ -211,4 +200,9 @@ For a complete breakdown of this project — including data collection, cleaning
 
 [Click here to explore the full EPL Match Winner Prediction Project Report](https://github.com/ehabmohamed223/english-premier-league-match-winner-prediction/tree/main/Project%20Report)
 
+---
+# **Dataset Access**
 
+To explore or use the processed dataset used in this project:
+
+[Download Processed EPL Matches Dataset (CSV)](https://github.com/ehabmohamed223/english-premier-league-match-winner-prediction/blob/main/processed_matches.csv)
