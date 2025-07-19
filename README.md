@@ -8,7 +8,6 @@
 
 ## **1.Project Overview**
 
-
 This project analyzes the performance of English Premier League (EPL) teams between **September 12, 2020**, and **April 25, 2022**, using historical match data. It explores the impact of various features such as goals, possession, expected goals (xG), and referee influence to build machine learning models that predict the winner of a match.
 ---
 
