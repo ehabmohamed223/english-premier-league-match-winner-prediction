@@ -1,4 +1,4 @@
-# English Premier League Match Winner Prediction
+# English Premier League Analysis & Match Winner Prediction
 **A Machine Learning Project to Predict the Winning Team in EPL Matches (2020–2022)**
 
 ![SAS Studio](https://img.shields.io/badge/SAS%20Studio-Used-blue?style=for-the-badge&logo=sas&logoColor=white)
